@@ -1,0 +1,63 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="enter_header">
+    <h1>Welcome to Entertainment Page</h1>
+    <h3>This page has all the movies, shows and comics that all these AWESOME heroes appear in!</h3>
+</div>
+
+<div class="heroes">
+    <div class="card" style="width: 18rem;">
+        <img src="../static/images/iron_man.jpg" class="card-img-top" alt="Iron-Man" height="250px">
+        <div class="card-body">
+        <h5 class="card-title">Iron Man</h5>
+        <p class="card-text">Some Movies that Iron-Man appears in are:</p>
+        </div>
+        <ul class="list-group list-group-flush">
+        <li class="list-group-item">Iron-man series</li>
+        <li class="list-group-item">Avengers-series</li>
+        <li class="list-group-item">Captain-America: Winter Soldier</li>
+        </ul>
+        <div class="card-body">
+        <a href="https://www.thewrap.com/marvel-movies-in-order-how-to-watch/" class="card-link">Movies Appeared In</a>
+        <a href="https://www.marvel.com/comics/characters/1009368/iron_man" class="card-link">Comics</a>
+        </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+        <img src="../static/images/black_widow.jpeg" class="card-img-top" alt="Iron-Man" height="250px">
+        <div class="card-body">
+        <h5 class="card-title">Black Widow</h5>
+        <p class="card-text">Some Movies that Black Widow appears in are:</p>
+        </div>
+        <ul class="list-group list-group-flush">
+        <li class="list-group-item">Black Widow</li>
+        <li class="list-group-item">Avengers-series</li>
+        <li class="list-group-item">Captain-America: Winter Soldier</li>
+        </ul>
+        <div class="card-body">
+        <a href="https://www.marvel.com/movies/black-widow" class="card-link">Movies Appeared In</a>
+        <a href="https://www.marvel.com/characters/black-widow-natasha-romanoff" class="card-link">Comics</a>
+        </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+        <img src="../static/images/Hawkeye.webp" class="card-img-top" alt="Iron-Man" height="250px">
+        <div class="card-body">
+        <h5 class="card-title">Hawkeye</h5>
+        <p class="card-text">Some Movies/Shows that Hawkeye appears in are:</p>
+        </div>
+        <ul class="list-group list-group-flush">
+        <li class="list-group-item">Hawkeye (show)</li>
+        <li class="list-group-item">Avengers-series</li>
+        <li class="list-group-item">Captain-America: Winter Soldier</li>
+        </ul>
+        <div class="card-body">
+        <a href="https://www.marvel.com/characters/hawkeye-clint-barton/on-screen/profile" class="card-link">Movies Appeared In</a>
+        <a href="https://www.marvel.com/comics/characters/1009368/iron_man" class="card-link">Comics</a>
+        </div>
+    </div>
+</div>
+
+{% endblock content %}
